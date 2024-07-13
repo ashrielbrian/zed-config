@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "space g g": [
+        "task::Spawn",
+        {
+          "lazygit": "Open lazygit"
+        }
+      ],
+      "cmd-`": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-shift-n": "editor::MovePageDown",
+      "cmd-shift-m": "editor::MovePageUp"
+    }
+  }
+]
