@@ -2,7 +2,7 @@
   {
     "context": "Workspace",
     "bindings": {
-      "space g g": [
+      "cmd g g": [
         "task::Spawn",
         {
           "lazygit": "Open lazygit"
