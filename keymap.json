@@ -8,7 +8,8 @@
           "lazygit": "Open lazygit"
         }
       ],
-      "cmd-`": "terminal_panel::ToggleFocus"
+      "cmd-`": "terminal_panel::ToggleFocus",
+      "cmd-n t": "workspace::NewTerminal"
     }
   },
   {
