@@ -1,22 +1,22 @@
 [
-  {
-    "context": "Workspace",
-    "bindings": {
-      "cmd g g": [
-        "task::Spawn",
-        {
-          "lazygit": "Open lazygit"
+    {
+        "context": "Workspace",
+        "bindings": {
+            "cmd g g": [
+                "task::Spawn",
+                {
+                    "lazygit": "Open lazygit"
+                }
+            ],
+            "alt-`": "terminal_panel::ToggleFocus",
+            "cmd-n t": "workspace::NewTerminal"
         }
-      ],
-      "cmd-`": "terminal_panel::ToggleFocus",
-      "cmd-n t": "workspace::NewTerminal"
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "cmd-shift-n": "editor::MovePageDown",
+            "cmd-shift-m": "editor::MovePageUp"
+        }
     }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "cmd-shift-n": "editor::MovePageDown",
-      "cmd-shift-m": "editor::MovePageUp"
-    }
-  }
 ]
