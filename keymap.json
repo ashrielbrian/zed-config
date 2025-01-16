@@ -5,7 +5,7 @@
             "cmd g g": [
                 "task::Spawn",
                 {
-                    "lazygit": "Open lazygit"
+                    "lg": "Open lazygit"
                 }
             ],
             "alt-`": "terminal_panel::ToggleFocus",
